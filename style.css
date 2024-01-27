@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: Horizon;
-    src: url(Horizon-Font/Horizon.otf);
+    src: url(Horizon-font/Horizon.otf);
 }
 
 /* applied to all pages */
@@ -174,7 +174,7 @@ nav a{text-decoration: none; color: #fa3a99;}
 .titleinvolvement {
     text-align: center;
     background-color: #14aeba;
-    color: white;
+    color: black;
     width: 25vw;
     height: 5vh;
     border-radius: 10px;
