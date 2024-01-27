@@ -167,8 +167,72 @@ nav a{text-decoration: none; color: #fa3a99;}
 }
 
 /* page 2 - involvement */
+.involvement {
+    display: flex;
+    align-items: center;
+}
 
-.picinvolvement {}
+.titleinvolvement {
+    text-align: center;
+    background-color: #14aeba;
+    color: white;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: Horizon;
+    font-size: xx-large;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.picinvolvement {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10vw;
+}
+
+.picinvolvement img {box-shadow: 2px 1px 10px black;}
+
+.txtinvolvement {
+    font-family: Futura;
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5em;
+}
+
+/* page 2 - activities */
+
+#picact img {box-shadow: 2px 1px 10px black;}
+
+#picact {padding-left: 3vw; padding-top: 3vh;}
+
+#txtact {
+    text-align: right;
+    font-family: Futura;
+    padding-left: 30vw;
+    display: flex;
+    align-content: center;
+}
+
+/* page 3 - who we are */
+
+#wwa {
+    background-image: url(media/wwa.png);
+    background-size: 80%;
+    height: 100vh;
+}
+
+#wwatitle {font-family: Horizon; text-align: center; font-size: xx-large;
+    padding-top: 5vh;
+}
+
+#wwatxt {font-family: Futura; text-align: center; font-size: 4vh; 
+    padding-right: 10em;
+    padding-left: 10em;
+    padding-top: 6vh;
+}
 
 /* footer */
 
