@@ -328,7 +328,12 @@ footer p {margin-right: 60vw;}
 #ig {background-position: -290px -221px;}
 #fb {background-position: -439px -146px;}
 
-@media (orientation: portrait)
-{
-    body {flex-direction: column;}
+@media screen and (max-width: 600px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
 }
