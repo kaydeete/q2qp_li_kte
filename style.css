@@ -329,11 +329,9 @@ footer p {margin-right: 60vw;}
 #fb {background-position: -439px -146px;}
 
 @media screen and (max-width: 600px) {
-    .background {
+    .background { /*scroll down */
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-
-    
 }
