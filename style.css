@@ -114,6 +114,9 @@ nav a{text-decoration: none; color: #fa3a99;}
 
 #picbg {
     padding: 3em;
+    animation-name: intro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; /* loop */
     /*padding-right: 20px;
     display: flex;
     justify-content: right;*/
@@ -334,4 +337,9 @@ footer p {margin-right: 60vw;}
         flex-direction: column;
         width: 100%;
     }
+}
+
+@keyframes intro {
+    from {transform: scale(0.5);}
+    to {transform: scale(1);}
 }
